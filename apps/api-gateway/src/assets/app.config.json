@@ -1,0 +1,46 @@
+{
+    "appConfig": {
+      "port": 3000,
+      "saltRounds": 10
+    },
+    "database": {
+      "user": "postgres",
+      "password": "postgres",
+      "host": "localhost",
+      "database": "pmm",
+      "port": 5432
+    },
+    "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "ttl": 5
+    },
+    "sendinblue": {
+      "key": "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"
+    },
+    "jwt": {
+      "secret": "super power ultra ultimate secret key",
+      "expire": "7d"
+    },
+    "email": {
+      "feUrl": "http://localhost:4200"
+    },
+    "kafka": {
+      "client": {
+        "clientId": "bff",
+        "brokers": ["localhost:9092"]
+      },
+      "consumer": {
+        "groupId": "bff"
+      }
+    },
+    "userService": {
+      "url": "http://localhost:3100/users",
+      "name": "USER_SERVICE"
+    },
+    "articleService": {
+      "url": "http://localhost:3200",
+      "name": "ARTICLE_SERVICE"
+    }
+  }
+  
